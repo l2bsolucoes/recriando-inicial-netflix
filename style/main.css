@@ -43,7 +43,7 @@ header nav a:hover{
 .filme-principal{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/img-capa.jpg');
-    height: 600px;
+    height: 500px;
     background-size: cover;/*aumenta a imagem por completo*/
     display: flex;
     flex-direction: column;
@@ -107,7 +107,7 @@ header nav a:hover{
 }
 
 .carrosel-filmes{
-    margin-top: -100px;
+    margin-top: 0px;
 }
 
 /*popup*/
@@ -125,4 +125,19 @@ header nav a:hover{
     display: none;
 }
 
+/*carrocel ação*/
+.titulo-acao, .titulo-comedia, .titulo-aventura, .titulo-infantil{
+    margin: 10px 0 10px 15px;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
 
+.carrosel-filmes-acao, .carrosel-filmes-comedia, .carrosel-filmes-aventura{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.carrosel-filmes-infantil{
+    margin-top: 0px;
+    margin-bottom: 100px;
+}
