@@ -42,7 +42,7 @@ header nav a:hover{
 /*filme principal*/
 .filme-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/img-capa.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/img-capa.jpg');
     height: 400px;
     background-size: cover;/*aumenta a imagem por completo*/
     display: flex;
