@@ -43,7 +43,7 @@ header nav a:hover{
 .filme-principal{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/img-capa.jpg');
-    height: 400px;
+    height: 600px;
     background-size: cover;/*aumenta a imagem por completo*/
     display: flex;
     flex-direction: column;
@@ -73,6 +73,16 @@ header nav a:hover{
     transition: 1s;
 }
 
+.botao a{
+    text-decoration: none;
+    color: white;
+}
+
+.botao a:hover{
+    background-color: white;
+    color: black;
+}
+
 .botao:hover{
     background-color: white;
     color: black;
@@ -97,5 +107,22 @@ header nav a:hover{
 }
 
 .carrosel-filmes{
-    margin-top: 5px;
+    margin-top: -100px;
 }
+
+/*popup*/
+.popup{
+    position: fixed;
+    top: -250px;
+    bottom:0;
+    left: 0;
+    right:0;
+    margin: auto;
+    width: 640px;
+    height: 390px;
+    padding: 15px;
+    /*background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%);*/
+    display: none;
+}
+
+
